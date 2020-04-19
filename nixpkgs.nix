@@ -13,9 +13,9 @@ and the control sum computed using `sha256`.
 */
 
 let
-  # nixpkgs-unstable 2020-01-30
-  sha256 = "0p7amn7raw5rahyxw3jq21378n7i7ld4122hm5dddlbcvmpw60p0";
-  rev = "690dd986b2349d2c9cd6437e820954ed400f37f7";
+  # nixpkgs-master 2020-02-25
+  sha256 = "17nv5gwlq6b33c5sxiy1ydhk8f73gx5kvvxfxn55342da1zsj2ys";
+  rev = "8246c35875d1564b99e2e65db229abaa11a09386";
 in
 import (fetchTarball {
   inherit sha256;
